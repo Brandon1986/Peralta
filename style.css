@@ -1,0 +1,282 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(bg.jpg);
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.social-bar .sub-dot {
+	background: #000000;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+  position: absolute;
+  right: 265px;
+  top: 25px;
+}
+.social-bar ul div {
+  background: #000000;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+  float: left;
+}
+
+.social-bar {
+  width: 50%;
+  position: relative;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.social-bar li {
+  display: inline-block;
+  width: 43px;
+  padding-top: 5px;
+}
+.social-bar li img {
+  width: 43px;
+  height: 43px;
+  padding: 0px;
+}
+
+.social-bar p {
+  width: 8%;
+  position: absolute;
+  right: 270px;
+  top: 10px;
+  margin: 2px 0 0 0;
+  color: white;
+  font-size: 10px;
+}
+.social-bar ul {
+  width: 190px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  padding: 0;
+  margin: 0
+}
+
+
+
+
+
+nav {
+  width: 716px;
+  height: 25px;
+  margin:auto;
+  margin-bottom: 10px;
+}
+nav li{
+  width: 24.5%;
+  height: 25px;
+  display: inline-block;
+  margin: auto;
+  background-color: red;
+  text-align: center;
+  color: white;
+
+}
+nav ul {
+  height: 25px;
+  margin: 5px 0;
+  padding: 0
+}
+header {
+  width: 49%;
+  margin: auto;
+  background-image: url(top-image.png);
+  height: 240px;
+  background-size:100%;
+  background-position: center;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+
+}
+h1 {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 8px;
+}
+h1 .dot {
+  background: #000000;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+  display: inline-block;
+}
+
+
+
+
+/*
+.container1 {
+  width: 60%;
+  height: 250px;
+  margin: auto;
+  padding-right:  50px;
+}
+.container1 section {
+  width: 233px;
+  height: 100%;
+    vertical-align: top;
+  display: inline-block;
+  background-color: white;
+
+}
+.container1 section h3 {
+  height: 30%;
+  padding: 20px 20px 2px 20px;
+  margin: 0;
+}
+.container1 p {
+  margin: 10px 20px 10px 20px;
+  height: 80px;
+}
+
+.container1 .col2 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.container1 article {
+  font-size: 10px;
+  width: 80px;
+  margin-left: 20px;
+}
+.container1 footer {
+  text-align: center;
+  color: red;
+}*/
+
+
+
+
+.container1 {
+  width: 50%;
+  height: 250px;
+  margin: auto;
+}
+.container1 section {
+  width: 233.5px;
+  height: 100%;
+    vertical-align: top;
+  display: inline-block;
+  background-color: white;
+
+}
+.container1 section h3 {
+  height: 30%;
+  padding: 20px 20px 2px 20px;
+  margin: 0;
+}
+.container1 p {
+  margin: 10px 20px 10px 20px;
+  height: 80px;
+}
+
+.container1 .col2 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.container1 article {
+  font-size: 10px;
+  width: 80px;
+  margin-left: 20px;
+}
+.container1 footer {
+  text-align: center;
+  color: red;
+}
+
+
+
+
+
+/*container2 pics */
+.container2 {
+  background-color: pink;
+  width: 50%;
+  height: 431px;
+  margin: auto;
+}
+.container2 .col1 {
+  width: 70%;
+}
+
+.container2 .inline-image {
+  width:100%;
+  height: 49%;
+}
+.container2 .col1 img {
+  width: 49.5%;
+  height: 100%;
+}
+.block-image {
+  width: 100%;
+  height: 49%;
+}
+.container2 .block-image img {
+  width: 100%;
+}
+
+.container2 section {
+  width: 29%;
+  height: 431px;
+  vertical-align: top;
+  float: left;
+}
+
+.container2 .col2 img {
+  width: 100%;
+  height: 100%;
+}
+/*end container2 */
+
+.container3 {
+  background-color: white;
+  width: 50%;
+  margin: auto;
+}
+.container3 img {
+  width: 9.5%;
+}
+.footer {
+  background-color: coral;
+  width: 50%;
+  height: 200px;
+  margin: auto;
+}
+.triangle {
+  background: red;
+    display: inline-block;
+    height: 50px;
+    margin-left: px;
+    margin-bottom: 55px;
+      position: relative;
+      width: 100px;
+      float: left;
+}
+.footer section {
+  width: 49%;
+  display: inline-block;
+}
+.form-page {
+
+}
+/*
+.triangle::before {
+  width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid red;
+	border-bottom: 50px solid transparent;
+}*/
