@@ -7,9 +7,12 @@ body {
   padding: 0;
 
 }
-
+.wrapper {
+  width: 50%;
+  margin: auto;
+}
+}
 .social-bar .sub-dot {
-	background: #000000;
 	width: 4px;
 	height: 4px;
 	border-radius: 50%;
@@ -18,7 +21,6 @@ body {
   top: 25px;
 }
 .social-bar ul div {
-  background: #000000;
 	width: 4px;
 	height: 4px;
 	border-radius: 50%;
@@ -26,7 +28,7 @@ body {
 }
 
 .social-bar {
-  width: 50%;
+  width: 100%;
   position: relative;
   height: 50px;
   margin-left: auto;
@@ -36,8 +38,8 @@ body {
 
 .social-bar li {
   display: inline-block;
-  width: 43px;
-  padding-top: 5px;
+  width: 23.429%;
+  dding-top: 5px;
 }
 .social-bar li img {
   width: 43px;
@@ -69,14 +71,12 @@ body {
 
 
 nav {
-  width: 716px;
-  height: 25px;
+  width: 100%;
   margin:auto;
   margin-bottom: 10px;
 }
 nav li{
-  width: 24.5%;
-  height: 25px;
+  width: 24.53%;
   display: inline-block;
   margin: auto;
   background-color: red;
@@ -85,12 +85,12 @@ nav li{
 
 }
 nav ul {
-  height: 25px;
+  width:100%;
   margin: 5px 0;
-  padding: 0
+  padding: 0;
 }
 header {
-  width: 49%;
+  width: 98.4%;
   margin: auto;
   background-image: url(top-image.png);
   height: 240px;
@@ -102,7 +102,7 @@ header {
 
 }
 h1 {
-  width: 50%;
+  width: 100%;
   margin: auto;
   text-align: center;
   padding-bottom: 8px;
@@ -161,36 +161,34 @@ h1 .dot {
 
 
 .container1 {
-  width: 50%;
-  height: 250px;
+  width: 100%;
   margin: auto;
   margin-bottom: 15px;
 }
 .container1 section {
-  width: 233.5px;
-  height: 100%;
+  width: 32.91%;
     vertical-align: top;
   display: inline-block;
   background-color: white;
 
 }
 .container1 section h3 {
-  height: 30%;
-  padding: 20px 20px 2px 20px;
+
+  padding: 8% 10% 8% 10%;
   margin: 0;
+  font-size: 105%;
 }
 .container1 p {
   margin: 10px 20px 10px 20px;
-  height: 80px;
+
+}
+.container1 .col3 p {
+  padding-top: 20px;
 }
 
-.container1 .col2 {
-  margin-left: 5px;
-  margin-right: 5px;
-}
 .container1 article {
   font-size: 10px;
-  width: 80px;
+
   margin-left: 20px;
 }
 .container1 footer {
@@ -203,9 +201,22 @@ h1 .dot {
 
 
 /*container2 pics */
+/*
+.lance-mountain {
+  background-image: image(sk8er-4.png);
+}
+.rodney-mullen {
+  background-image: image(sk8er-3.png);
+}
+.steve-caballero {
+  background-image: image(sk8er-1.png);
+}
+.tommy-guerrero {
+  background-image: image(sk8er-2.png);
+}*/
+
 .container2 {
-  background-color: pink;
-  width: 50%;
+  width: 100%;
   height: 431px;
   margin: auto;
   margin-bottom: 15px;
@@ -219,12 +230,13 @@ h1 .dot {
   height: 49%;
 }
 .container2 .col1 img {
-  width: 49.5%;
+  width: 48%;
   height: 100%;
+  border: solid white;
 }
 .block-image {
   width: 100%;
-  height: 49%;
+  height: 51%;
 }
 .container2 .block-image img {
   width: 100%;
@@ -240,24 +252,23 @@ h1 .dot {
 .container2 .col2 img {
   width: 100%;
   height: 100%;
+  border: solid white;
 }
 /*end container2 */
 
 .container3 {
   background-color: white;
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 .container3 img {
-  width: 9.5%;
+  width: 6.4%;
+  margin: 1.5%;
 }
-.footer {
-  background-color: white;
-  width: 50%;
-  height: 200px;
-  margin: auto;
-  margin-top: 15px;
-}
+
+
+
+/*
 .triangle {
   background: red;
     display: inline-block;
@@ -267,14 +278,31 @@ h1 .dot {
       position: relative;
       width: 100px;
       float: left;
+}*/
+
+.footer {
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  margin-top: 15px;
 }
-.footer section {
-  width: 49%;
+
+.footer .contact {
+  width:100%;
+  background-color: white;
   display: inline-block;
 }
-.form-page {
+.footer .left   {
+width: 49%;
+}
+.footer .left h3 {
+  padding: 8% 5% 2% 7%;
+}
+.footer .right{
+  width: 49%;
 
 }
+
 /*
 .triangle::before {
   width: 0;
@@ -283,3 +311,73 @@ h1 .dot {
 	border-left: 100px solid red;
 	border-bottom: 50px solid transparent;
 }*/
+
+
+@media (max-width:400px) {
+
+  body {
+    background: url(bg.jpg) center center cover no-repeat;
+    background-size: 156%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+  }
+  .wrapper {
+    width: 65%;
+    margin: auto;
+}
+  .social-bar {
+    display: none;
+  }
+
+  nav li {
+    width: 97%;
+    background-color: red;
+    text-align: center;
+    color: white;
+    margin: 2% 0;
+    border: solid;
+  }
+  header {
+    width: 97%;
+    height: 122px;
+    border: solid white;
+  }
+  h1 .dot {
+   width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  }
+  .container1 section {
+    width: 100%;
+    background-color: white;
+    margin: 3% 0;
+  }
+  .container2 .col1 {
+    width: 100%;
+  }
+  .container2 .col1 img {
+    width: 98%;
+  }
+.container2 .col2 img {
+  height: 50%;
+}
+  .container3 {
+    padding-left: 1%;
+  }
+  .container3 img {
+      width: 15.4%;
+      margin: 1.5%;
+}
+.footer .left{
+  width: 100%;
+}
+.footer .right{
+  width: 100%;
+  text-align: center
+}
+
+
+}
